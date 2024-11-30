@@ -20,14 +20,14 @@ Et si ce n'est pas le cas, règle la configuration dans l'odre indiqué par les 
 
 ### Git
 
-1. tape la commande  
+1. Tape la commande  
 ```sudo apt install git -y```
 2. Entre ton mot de passe quand il t'est demandé (tu ne verras pas les caractères que tu tapes, c'est normal) et appuie sur entrée
-3. une fois que tu peux de nouveau taper des commandes, tape la commande  
+3. Une fois que tu peux de nouveau taper des commandes, tape la commande  
    ```git --version```   
-pour verifier que git est bien installé : si ce que tu vois sur le screen s'affiche, c'est bon 
+pour verifier que git est bien installé : si ce que tu vois sur le screen s'affiche, c'est bon  
 ![alt text](Ubuntu_From_0_to_TP1_ProgSys_IMG/image-4.png)
-4. tape la commande suivante  :
+4. Tape la commande suivante :  
 ```git config --global user.name <ton pseudo github>```  
 puis  
 ```git config --global user.email <ton email github>```  
@@ -44,7 +44,7 @@ en n'utilisant pas les "<>"
 4. Entre le même mot de passe pour confirmer  
 ![alt text](Ubuntu_From_0_to_TP1_ProgSys_IMG/image-7.png) 
 5. Après avoir obtenu le message suivant,  
-![alt text](Ubuntu_From_0_to_TP1_ProgSys_IMG/image-8.png)
+![alt text](Ubuntu_From_0_to_TP1_ProgSys_IMG/image-8.png)  
 tape la commande  
 ```eval "$(ssh-agent -s)"```  
 ![alt text](Ubuntu_From_0_to_TP1_ProgSys_IMG/image-9.png)
@@ -75,7 +75,7 @@ Pour s'assurer que tout fonctionne dès le démarrage de ton ubuntu, on va autom
 
 1. Alt+F2  
 ![alt text](Ubuntu_From_0_to_TP1_ProgSys_IMG/image-19.png)
-2. tape  
+2. Tape  
 ```gnome-session-properties```    
 et appuie sur entrée  
 ![alt text](Ubuntu_From_0_to_TP1_ProgSys_IMG/image-20.png)
@@ -83,11 +83,11 @@ et appuie sur entrée
 ![alt text](Ubuntu_From_0_to_TP1_ProgSys_IMG/image-21.png)  
 tu peux passer à l'installation de [VSCode](#vscode) Sinon, appuie sur "Add"  
 ![alt text](Ubuntu_From_0_to_TP1_ProgSys_IMG/image-22.png)
-4. Remplis les champs :
-   (1) SSH Key Agent 
-   (2) `/usr/bin/gnome-keyring-daemon --start --components=ssh`
+4. Remplis les champs :  
+   (1) SSH Key Agent  
+   (2) `/usr/bin/gnome-keyring-daemon --start --components=ssh`  
    (3) GNOME Keyring: SSH Agent  
-![alt text](Ubuntu_From_0_to_TP1_ProgSys_IMG/image-23.png)
+![alt text](Ubuntu_From_0_to_TP1_ProgSys_IMG/image-23.png)  
    Puis clique sur "Add" (4)
 5. Ferme la fenêtre
 
@@ -120,7 +120,7 @@ Si une version s'affiche, comme celle sur le screen, c'est bon
 
 ## Configuration de VSCode pour le C
 
-1. Dans le terminal, tape la commande
+1. Dans le terminal, tape la commande  
 `cd <chemin/du/projet>`  
 (en remplaçant `<chemin/du/dossier>` par le chemin du dossier du projet que tu as cloné à l'étape précédente)
 2. Ouvre VSCode 
@@ -128,26 +128,25 @@ Si une version s'affiche, comme celle sur le screen, c'est bon
    b. Soit en tapant  
    `code`  
    dans le terminal 
-3.  mais tu peux aussi taper `code .` dans un terminal pour l'ouvrir dans le dossier projet)
-4. Clique sur l'icone d'extension  
+3. Clique sur l'icone d'extension  
 ![alt text](Ubuntu_From_0_to_TP1_ProgSys_IMG/image-27.png)
-5. Tape "C/C++" dans la barre de recherche
-6. Clique sur "C/C++" 
-7. Clique sur `Install`  
+4. Tape "C/C++" dans la barre de recherche
+5. Clique sur "C/C++" 
+6. Clique sur `Install`  
 ![alt text](Ubuntu_From_0_to_TP1_ProgSys_IMG/image-28.png)  
-8. Clique sur les fichiers  
+7. Clique sur les fichiers  
 ![alt text](Ubuntu_From_0_to_TP1_ProgSys_IMG/image-29.png)  
-9. Clique sur `open folder`  
+8. Clique sur `Open Folder`  
 ![alt text](Ubuntu_From_0_to_TP1_ProgSys_IMG/image-31.png) 
-10. Trouve le dossier du projet que tu as cloné à l'étape précédente :
+9. Trouve le dossier du projet que tu as cloné à l'étape précédente :
 ![alt text](Ubuntu_From_0_to_TP1_ProgSys_IMG/image-32.png) 
-11. Une fenetre s'ouvre "Do you trust the authors of the files in this folder?"   
-   (1) Cochez la case "Trust the authors of all files in parent folder"  
-   (2) Cliquez sur "Yes"  
+10. Une fenetre s'ouvre : "Do you trust the authors of the files in this folder?"   
+   (1) Coche la case "Trust the authors of all files in parent folder"  
+   (2) Clique sur "Yes"  
 ![alt text](Ubuntu_From_0_to_TP1_ProgSys_IMG/image-33.png) 
-12. Clique sur "install a C++ compiler"  
+11. Clique sur "install a C++ compiler"  
 ![alt text](Ubuntu_From_0_to_TP1_ProgSys_IMG/image-34.png)
-13. Clique sur "OK" dans la fenetre qui s'ouvre
+12. Clique sur "OK" dans la fenetre qui s'ouvre
 ![alt text](Ubuntu_From_0_to_TP1_ProgSys_IMG/image-35.png)
 
 
